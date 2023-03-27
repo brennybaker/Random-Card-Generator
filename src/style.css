@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-.bottom-suit {
+#bottom-suit {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -24,7 +24,7 @@ body {
   margin-bottom: 10px;
 }
 
-.top-suit {
+#top-suit {
   position: absolute;
   top: 0;
   left: 0;
@@ -33,17 +33,17 @@ body {
   margin-top: 0;
 }
 
-.number {
+#number {
   display: inline-block;
   margin-top: 200px;
   font-size: 70px;
 }
 
-.heart {
+.hearts {
   content: \2665;
   color: red;
 }
-.diamond {
+.diams {
   content: \2666;
   color: red;
 }

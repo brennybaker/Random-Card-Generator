@@ -7,9 +7,14 @@ import "./assets/img/4geeks.ico";
 
 window.onload = () => {
   const suit = generateRanSuit();
-  document.querySelector(".top-suit").innerHTML = suit;
-  document.querySelector(".bottom-suit").innerHTML = suit;
-  document.querySelector(".number").innerHTML = generateRanNum();
+  let entity = "&" + suit + ";";
+
+  document.getElementById("top-suit").classList.add(suit);
+  document.getElementById("bottom-suit").classList.add(suit);
+  document.getElementById("number").classList.add(suit);
+  document.getElementById("top-suit").setHTML(entity);
+  document.getElementById("bottom-suit").setHTML(entity);
+  document.getElementById("number").setHTML(generateRanNum());
 };
 
 function generateRanNum() {
@@ -33,7 +38,7 @@ function generateRanNum() {
 }
 
 function generateRanSuit() {
-  let suitType = ["♣", " ♠", "♦", "♥"];
+  let suitType = ["clubs", "spades", "diams", "hearts"];
   let suitIndex = Math.floor(Math.random() * suitType.length);
   return suitType[suitIndex];
 }
