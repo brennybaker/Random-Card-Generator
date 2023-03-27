@@ -13,10 +13,8 @@ body {
   border: solid, 1px, black;
   position: relative;
   text-align: center;
-  &: before;
 }
- {
-}
+
 .bottom-suit {
   position: absolute;
   bottom: 0;
