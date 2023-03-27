@@ -39,19 +39,19 @@ body {
   font-size: 70px;
 }
 
-.spades {
+/*.spade {
   content: \2660;
   color: black;
 }
-.hearts {
+.heart {
   content: \2665;
   color: red;
 }
-.diamonds {
+.diamond {
   content: \2666;
   color: red;
 }
 .clubs {
   content: \2663;
   color: black;
-}
+}*/
