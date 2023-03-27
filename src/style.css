@@ -39,10 +39,6 @@ body {
   font-size: 70px;
 }
 
-.spade {
-  content: \2660;
-  color: black;
-}
 .heart {
   content: \2665;
   color: red;
@@ -50,8 +46,4 @@ body {
 .diamond {
   content: \2666;
   color: red;
-}
-.club {
-  content: \2663;
-  color: black;
 }
