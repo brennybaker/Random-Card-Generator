@@ -7,10 +7,18 @@ import "./assets/img/4geeks.ico";
 
 window.onload = () => {
   //write your code here
+<<<<<<< HEAD
   // document.getbyelementid(".card").add("club");
   // document.querySelector(".card").classList.add("diamond");
   // document.querySelector(".card").classList.add("heart");
   // document.querySelector(".card").classList.add("spade");
+=======
+//   document.querySelector(".card").classList.add("club");
+//   document.querySelector(".card").classList.add("diamond");
+//   document.querySelector(".card").classList.add("heart");
+//   document.querySelector(".card").classList.add("spade");
+  var newSuit = generateRanSuit();
+>>>>>>> refs/remotes/origin/main
 };
 
 let generateRanNum = () => {
