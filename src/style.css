@@ -39,7 +39,7 @@ body {
   font-size: 70px;
 }
 
-/*.spade {
+.spade {
   content: \2660;
   color: black;
 }
@@ -51,7 +51,7 @@ body {
   content: \2666;
   color: red;
 }
-.clubs {
+.club {
   content: \2663;
   color: black;
-}*/
+}
